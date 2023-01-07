@@ -25,11 +25,11 @@
 
     <nav>
       <!-- About Link -->
-      <a class="text-white p-2 border mx-4" href="#about">About</a>
+      <a class="text-white p-2 border mx-4 scroll-into-view" onclick="document.querySelector('.about').scrollIntoView({ behavior: 'smooth' })">About</a>
       <!-- Projects Link -->
-      <a class="text-white p-2 border mx-4" href="#projects">Projects</a>
+      <a class="text-white p-2 border mx-4 scroll-into-view" onclick="document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' })">Projects</a>
       <!-- Contact Me Link -->
-      <a class="text-white p-2 border mx-4" href="#contact">Contact Me</a>
+      <a class="text-white p-2 border mx-4 scroll-into-view" onclick="document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' })">Contact Me</a>
     </nav>
     
 
@@ -43,15 +43,15 @@
     <aside class="w-1/4 justify-end">
       <br>
       <!-- About Link -->
-      <a href="#about" class="scroll-into-view" onclick="document.querySelector('.about').scrollIntoView({ behavior: 'smooth' })">
+      <a class="scroll-into-view" onclick="document.querySelector('.about').scrollIntoView({ behavior: 'smooth' })">
         <h1 class="text-2xl">About</h1>
       </a><br>
       <!-- Projects Link -->
-      <a href="#projects" class="scroll-into-view" onclick="document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' })">
+      <a class="scroll-into-view" onclick="document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' })">
         <h1 class="text-2xl">Projects</h1>
       </a><br>
       <!-- Contact Link -->
-      <a href="#contact" class="scroll-into-view" onclick="document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' })">
+      <a class="scroll-into-view" onclick="document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' })">
         <h1 class="text-2xl">Contact Me</h1>
       </a><br>
     </aside>
