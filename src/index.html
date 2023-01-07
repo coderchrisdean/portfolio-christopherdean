@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS -->
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- Font -->
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <title>Christopher Dean: Full-Stack-Web-Developer</title>
+</head>
+<body>
+<!-- Header -->
+<header class="bg-gray-900 text-white p-4 flex justify-between items-center">
+    <!-- Logo/Avatar -->
+    <div class="container flex">
+      <div>
+          <img class="w-12 mr-4" src="../assets/images/CDeanTransparent.png" alt="my logo">
+      </div>
+          <div>
+              <h1 class="text-2xl">Christopher Dean</h1>
+              <h2 class="text-xl">Full-Stack-Web-Developer</h2>
+          </div>
+    </div>
+
+    <nav>
+      <!-- About Link -->
+      <a class="text-white p-2 border mx-4" href="#about">About</a>
+      <!-- Projects Link -->
+      <a class="text-white p-2 border mx-4" href="#projects">Projects</a>
+      <!-- Contact Me Link -->
+      <a class="text-white p-2 border mx-4" href="#contact">Contact Me</a>
+    </nav>
+    
+
+  </header>
+  
+  
+<!-- Main content -->
+<main class="flex p-4">
+    <!-- Side column -->
+ 
+    <aside class="w-1/4 justify-end">
+      <br>
+      <!-- About Link -->
+      <a href="#about" class="scroll-into-view" onclick="document.querySelector('.about').scrollIntoView({ behavior: 'smooth' })">
+        <h1 class="text-2xl">About</h1>
+      </a><br>
+      <!-- Projects Link -->
+      <a href="#projects" class="scroll-into-view" onclick="document.querySelector('.projects').scrollIntoView({ behavior: 'smooth' })">
+        <h1 class="text-2xl">Projects</h1>
+      </a><br>
+      <!-- Contact Link -->
+      <a href="#contact" class="scroll-into-view" onclick="document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' })">
+        <h1 class="text-2xl">Contact Me</h1>
+      </a><br>
+    </aside>
+
+  
+    <!-- Main column -->
+    <div class="w-3/4">
+      <!-- About -->
+      <br>
+      <section id = "about" class= "text-m p-2 border">
+        <div class="about scroll-behavior: smooth">
+        <p>
+        Christopher Dean is a professional with a diverse background in customer service, management, real estate, and financial services. During the pandemic, Christopher took the opportunity to explore the tech field and enrolled in a coding bootcamp at UC Berkeley.
+        </p><br>
+        <p>
+        Christopher is passionate about using technology to be creative and challenge himself. He is a dedicated and hardworking professional who always gives his best effort. He has a strong work ethic and is committed to staying up to date with the latest industry trends and developments.
+        </p><br>
+        <p>
+        In his free time, Christopher enjoys hiking, traveling, and reading. He is also an avid music fan and enjoys attending concerts and festivals whenever he can. He is a well-rounded individual who is always looking for new ways to grow and learn.
+        </p><br>
+        </div>
+        </section>
+        <br><br>
+
+
+        <!-- Projects -->
+        <section id="projects" class="border shadow">
+          <div class="projects scroll-behavior: smooth">
+            <div class="relative overflow-hidden">
+              <!-- Project Image -->
+              <img class="w-full object-cover p-4" src="https://user-images.githubusercontent.com/112605297/206879509-4e6c3bf4-5862-4ebd-811b-ee3ccaa3ca73.png" alt="Stat-A-Baller">
+            </div>
+          
+            <!-- Link and title -->
+            <div class="text-center">
+              <button class="bg-transparent border border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4 rounded-full mx-auto">
+                <a class="block p-4" href="#">
+                  <h3 class="text-xl font-bold text-center">Stat-A-Baller!</h3>
+                </a>
+              </button>
+            </div>
+          </div><br>
+            
+            
+          
+        </section>
+    
+          <!-- Section -->
+          <br><br>
+        <section class="flex text-m p-2 border">
+          
+          <!-- Project Two -->
+          <div class="card w-1/3 p-4">
+            <!-- Image -->
+            <img class="w-full object-cover" src="https://source.unsplash.com/random/1600x900" alt="Landscape image">
+
+            <!-- Button -->
+            <div class="text-center">
+              <br>
+              <button class="bg-transparent border border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4 rounded-full mx-auto text-center">
+                <a class="block p-4" href="#">Project-Two</a>
+              </button>
+            </div>
+          
+          </div>
+
+          <!-- Project Three -->
+          <div class="card w-1/3 p-4">
+            <!-- Image -->
+            <img class="w-full object-cover" src="https://source.unsplash.com/random/1600x900" alt="Landscape image">
+
+            <!-- Button -->
+            <div class="text-center">
+              <br>
+              <button class="bg-transparent border border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4 rounded-full mx-auto text-center">
+                <a class="block p-4" href="#">Project-Three</a>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project Four -->
+          <div class="card w-1/3 p-4">
+            <!-- Image -->
+            <img class="w-full object-cover" src="https://source.unsplash.com/random/1600x900" alt="Landscape image">
+
+            <!-- Button -->
+            <div class="text-center">
+              <br>
+              <button class="bg-transparent border border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4 rounded-full mx-auto text-center">
+                <a class="block p-4" href="#">Project-Four</a>
+              </button>
+            </div>
+          </div>
+        </section>
+        <br>
+        <br>
+        <!-- Contact Information -->
+          <!-- Section -->
+          <section id="contact" class="scrollable scroll-behavior: smooth card border border-gray-400">
+            <div class="contact scroll-behavior: smooth">
+            <!-- Contact Information -->
+            <div class="p-4">
+              <!-- Email -->
+              <p class="font-bold">Email:</p>
+              <p>coderchrisdean@gmail.com</p>
+
+              <!-- Phone Number -->
+              <p class="font-bold">Phone:</p>
+              <p>424-345-XXXX</p>
+
+              <!-- Github Link -->
+              <p class="font-bold">GitHub:</p>
+              <a href="https://github.com/coderchrisdean">https://github.com/coderchrisdean</a>
+            </div>
+            </div>
+          </section>
+
+</main>
+  
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white p-4 text-center">
+    ©2023 Christopher Dean 
+  </footer>
+  
+</body>
+</html>
